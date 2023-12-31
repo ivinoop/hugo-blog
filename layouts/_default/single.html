@@ -1,3 +1,36 @@
 {{ define "main" }}
-<div class="single">Single Page</div>
+<div class="single">
+  <div class="single-content">
+    <h1 class="single-title">{{ .Title }}</h1>
+    <img src={{ .Params.imageBig }} alt="post-cover-image" class="single-cover-img">
+    <p class="single-description">{{ .Params.description }}</p>
+    <div class="single-details flex jcc aic">
+      <img
+        src="{{.Params.avatar}}"
+        alt="author avatar"
+        class="single-author-avatar"
+        loading="lazy"
+      />
+      <span>
+        {{ range (.GetTerms "authors")}}
+        <a class="single-author-name" href="{{.Permalink}}">{{ .Name }}</a>
+        {{ end }}
+      </span>
+      <i class="bi bi-dot"></i>
+      <time class="single-date flex jcc aic">
+        <i class="bi bi-calendar-event"></i>
+        {{ dateFormat .Site.Params.dateFormat .Date}}
+      </time>
+    </div>
+    <div class="single-categories flex jcc aic">
+      {{ range (.GetTerms "categories")}}
+      <span class="single-category">
+        <a href="{{.Permalink}}">#{{ .Name }}</a></span
+      >
+      {{ end }}
+    </div>
+    <hr class="divider" />
+    <div class="single-content">{{ .Content }}</div>
+  </div>
+</div>
 {{ end }}

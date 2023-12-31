@@ -2,7 +2,7 @@
 <div class="list">
   {{ range .Paginator.Pages}}
   <ul class="list-items">
-    <li class="list-item">
+    <li class="list-item flex jsb ais">
       <div class="list-item-content">
         <h2 class="list-item-title">
           <a href="{{.Permalink}}">{{.Title}}</a>
@@ -16,11 +16,14 @@
           />
           <span class="list-item-details-author">
             {{ range (.GetTerms "authors")}}
-            <a href={{.Permalink}}>{{ .Name }}
-            </a>
-            {{ end }}
-          </span>
-          <time class="list-item-details-date"><i class="bi bi-calendar-event"></i> {{ dateFormat .Site.Params.dateFormat .Date}}</time>
+            <a href={{ .Permalink }}>{{ .Name }}
+              {{ end }}
+            </span>
+          </a><i class="bi bi-dot"></i>
+          <time class="list-item-details-date">
+            <i class="bi bi-calendar-event"></i> 
+            {{ dateFormat .Site.Params.dateFormat .Date}}
+          </time>
         </div>
         <p class="list-item-desc">{{.Params.description}}</p>
         <div class="list-item-categories">
@@ -29,14 +32,12 @@
           {{ end }}
         </div>
       </div>
-      {{/*
       <img
         class="list-item-img"
         loading="lazy"
         src="{{.Params.image}}"
         alt="{{.Title}}"
       />
-      */}}
     </li>
   </ul>
   {{ end }}
