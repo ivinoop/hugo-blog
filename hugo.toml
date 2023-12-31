@@ -1,3 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'vinoo'
+title = 'Vinoo'
+
+[params]
+  dateFormat = "Jan 2, 2006"

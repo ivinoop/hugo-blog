@@ -1,19 +1,37 @@
 {{ define "main" }}
 <div class="list">
   {{ range .Paginator.Pages}}
-  <ul class="list-item">
-    <li>
+  <ul class="list-items">
+    <li class="list-item">
+      <div class="list-item-content">
+        <h2 class="list-item-title">
+          <a href="{{.Permalink}}">{{.Title}}</a>
+        </h2>
+        <div class="list-item-details flex aic">
+          <img
+            src="{{.Params.avatar}}"
+            class="list-item-details-avatar"
+            loading="lazy"
+            alt=""
+          />
+          <span></span>
+          <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+        </div>
+        <p class="list-item-desc">{{.Params.description}}</p>
+        <div class="list-item-categories">
+          <span class="list-item-category"><a href="#">#javascript</a></span>
+          <span class="list-item-category"><a href="#">#react</a></span>
+          <span class="list-item-category"><a href="#">#how-to</a></span>
+        </div>
+      </div>
+      {{/*
       <img
-      class="list-item-img"
-      loading="lazy"
-      width="200px"
-      height="150px"
-      src={{.Params.image}}
-      alt={{.Title}}
+        class="list-item-img"
+        loading="lazy"
+        src="{{.Params.image}}"
+        alt="{{.Title}}"
       />
-      <h2>
-        <a href="">{{.Title}}</a>
-      </h2>
+      */}}
     </li>
   </ul>
   {{ end }}

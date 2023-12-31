@@ -2,7 +2,7 @@
 title = 'Seventh Post'
 date = 2023-12-30T22:36:37+05:30
 draft = false
-description = "This is a description"
+description = "This is a description Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor saepe incidunt et nihil a. Provident autem nulla quo dolor, quos recusandae! Aspernatur officiis animi placeat cumque nihil, numquam nesciunt voluptas suscipit tempore est reprehenderit necessitatibus, laborum recusandae dolorum rem neque. Nisi cum nihil est facere harum quidem nam reiciendis ducimus."
 image = "/images/googol-min.jpeg"
 imageBig = "/images/googol-min.jpeg"
 categories = ["general", "life"]

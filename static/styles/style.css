@@ -1,4 +1,5 @@
 /* RESETS */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -129,6 +130,69 @@ table {
   border-spacing: 0;
 }
 
+/* GENERAL */
+
+html {
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jsb {
+  justify-content: space-between;
+}
+
+.jse {
+  justify-content: space-evenly;
+}
+
+.aic {
+  align-items: center;
+}
+
+.ais {
+  align-items: start;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+.tac {
+  text-align: center;
+}
+
 /* CUSTOM STYLES */
 
 :root {
@@ -151,8 +215,7 @@ a {
 
 .container {
   max-width: 1336px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 50px;
   margin: auto;
   min-height: 100vh;
   display: flex;
@@ -162,17 +225,18 @@ a {
 
 /* --- hover animation --- */
 
-a {
+.hover-underline {
   position: relative;
   padding-bottom: 4px;
 }
 
-a::after {
+.hover-underline::after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: '';
   display: block;
-  height: 2px;
+  height: 3px;
+  border-radius: 30px;
   left: 50%;
   position: absolute;
   background: teal;
@@ -180,7 +244,7 @@ a::after {
   width: 0;
 }
 
-a:hover:after {
+.hover-underline:hover:after {
   width: 100%;
   left: 0;
 }
@@ -191,7 +255,8 @@ a:hover:after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding-top: 16px;
+  padding-bottom: 32px;
 }
 
 .logo a {
@@ -229,10 +294,64 @@ a:hover:after {
   }
 }
 
+/* list */
+
+.list-item {
+  gap: 40px;
+  padding: 12px;
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid #6c6c6c;
+  border-radius: 12px; */
+  &:hover {
+    background: linear-gradient(to left, #1f2937, #111827, #000);
+  }
+  .list-item-content {
+    .list-item-title {
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .list-item-details {
+      gap: 4px;
+      color: var(--textSoft);
+
+      .list-item-details-avatar {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
+      time {
+        font-size: 10px;
+      }
+    }
+    .list-item-desc {
+      margin-top: 12px;
+      color: var(--text);
+      font-size: 12px;
+    }
+  }
+  .list-item-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .list-item-categories {
+    margin-top: 12px;
+    .list-item-category {
+      background-color: #bedbfe;
+      color: #000;
+      padding: 2px 8px;
+      border-radius: 8px;
+      font-size: 12px;
+    }
+  }
+}
+
 /* footer */
 
 .footer {
   padding: 12px 18px;
+  margin-top: 32px;
   box-shadow: 0px -1px 15px 0px #14b8a6;
   border-top-right-radius: 18px;
   border-top-left-radius: 18px;
@@ -288,16 +407,26 @@ a:hover:after {
   }
 }
 
+/* mobile */
+
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
+    padding: 0 5px;
   }
   .nav-items li {
-    font-size: 14px;
+    font-size: 12px;
+    margin: 0 8px;
+    font-weight: 400;
   }
   .footer {
     padding: 10px 0;
     justify-content: space-around;
+    .footer-nav {
+      a {
+        font-size: 12px;
+      }
+    }
   }
 }
 
