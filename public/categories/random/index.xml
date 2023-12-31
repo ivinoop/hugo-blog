@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>random on Vinoo</title>
+    <link>https://capable-starship-1b455b.netlify.app/categories/random/</link>
+    <description>Recent content in random on Vinoo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Dec 2023 23:23:10 +0530</lastBuildDate>
+    <atom:link href="https://capable-starship-1b455b.netlify.app/categories/random/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test for Netlify</title>
+      <link>https://capable-starship-1b455b.netlify.app/test-for-netlify/</link>
+      <pubDate>Sun, 31 Dec 2023 23:23:10 +0530</pubDate>
+      <guid>https://capable-starship-1b455b.netlify.app/test-for-netlify/</guid>
+      <description>A big introductory heading And some random content</description>
+    </item>
+  </channel>
+</rss>

@@ -2,49 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/authors/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/authors/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/categories/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/categories/netlify/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/categories/random/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/test-for-netlify/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/authors/vinoo/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/</loc>
+    <lastmod>2023-12-31T23:23:10+05:30</lastmod>
+  </url><url>
+    <loc>https://capable-starship-1b455b.netlify.app/categories/general/</loc>
     <lastmod>2023-12-30T22:36:37+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/authors/richard-hendricks/</loc>
     <lastmod>2023-12-30T22:36:37+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/categories/general/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/seventh-post/</loc>
     <lastmod>2023-12-30T22:36:37+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/authors/richard-hendricks/</loc>
-    <lastmod>2023-12-30T22:36:37+05:30</lastmod>
-  </url><url>
-    <loc>https://example.org/seventh-post/</loc>
-    <lastmod>2023-12-30T22:36:37+05:30</lastmod>
-  </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2023-12-30T22:36:37+05:30</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/life/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/categories/life/</loc>
     <lastmod>2023-12-30T22:35:53+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/sixth-post/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/sixth-post/</loc>
     <lastmod>2023-12-30T22:35:53+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/authors/vinoo/</loc>
-    <lastmod>2023-12-30T22:35:53+05:30</lastmod>
-  </url><url>
-    <loc>https://example.org/fifth-post/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/fifth-post/</loc>
     <lastmod>2023-12-30T22:35:16+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/fourth-post/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/fourth-post/</loc>
     <lastmod>2023-12-30T22:34:43+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/categories/js/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/categories/js/</loc>
     <lastmod>2023-12-30T22:33:56+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/third-post/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/third-post/</loc>
     <lastmod>2023-12-30T22:33:56+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/second-post/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/second-post/</loc>
     <lastmod>2023-12-30T22:33:05+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/first-post/</loc>
+    <loc>https://capable-starship-1b455b.netlify.app/first-post/</loc>
     <lastmod>2023-12-30T22:24:03+05:30</lastmod>
   </url>
 </urlset>

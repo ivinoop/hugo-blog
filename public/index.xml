@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vinoo</title>
-    <link>https://example.org/</link>
+    <link>https://capable-starship-1b455b.netlify.app/</link>
     <description>Recent content on Vinoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Dec 2023 22:36:37 +0530</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 23:23:10 +0530</lastBuildDate>
+    <atom:link href="https://capable-starship-1b455b.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test for Netlify</title>
+      <link>https://capable-starship-1b455b.netlify.app/test-for-netlify/</link>
+      <pubDate>Sun, 31 Dec 2023 23:23:10 +0530</pubDate>
+      <guid>https://capable-starship-1b455b.netlify.app/test-for-netlify/</guid>
+      <description>A big introductory heading And some random content</description>
+    </item>
     <item>
       <title>Seventh Post Seventh Post Seventh Post Seventh Post Seventh</title>
-      <link>https://example.org/seventh-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/seventh-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:36:37 +0530</pubDate>
-      <guid>https://example.org/seventh-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/seventh-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b; } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>Sixth Post</title>
-      <link>https://example.org/sixth-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/sixth-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:35:53 +0530</pubDate>
-      <guid>https://example.org/sixth-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/sixth-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>Fifth Post</title>
-      <link>https://example.org/fifth-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/fifth-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:35:16 +0530</pubDate>
-      <guid>https://example.org/fifth-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/fifth-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>Fourth Post</title>
-      <link>https://example.org/fourth-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/fourth-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:34:43 +0530</pubDate>
-      <guid>https://example.org/fourth-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/fourth-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>Third Post</title>
-      <link>https://example.org/third-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/third-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:33:56 +0530</pubDate>
-      <guid>https://example.org/third-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/third-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>Second Post</title>
-      <link>https://example.org/second-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/second-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:33:05 +0530</pubDate>
-      <guid>https://example.org/second-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/second-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://example.org/first-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/first-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:24:03 +0530</pubDate>
-      <guid>https://example.org/first-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/first-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
   </channel>

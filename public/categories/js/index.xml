@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>js on Vinoo</title>
-    <link>https://example.org/categories/js/</link>
+    <link>https://capable-starship-1b455b.netlify.app/categories/js/</link>
     <description>Recent content in js on Vinoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Dec 2023 22:33:56 +0530</lastBuildDate>
-    <atom:link href="https://example.org/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://capable-starship-1b455b.netlify.app/categories/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Third Post</title>
-      <link>https://example.org/third-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/third-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:33:56 +0530</pubDate>
-      <guid>https://example.org/third-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/third-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
     <item>
       <title>Second Post</title>
-      <link>https://example.org/second-post/</link>
+      <link>https://capable-starship-1b455b.netlify.app/second-post/</link>
       <pubDate>Sat, 30 Dec 2023 22:33:05 +0530</pubDate>
-      <guid>https://example.org/second-post/</guid>
+      <guid>https://capable-starship-1b455b.netlify.app/second-post/</guid>
       <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
     </item>
   </channel>

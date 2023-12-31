@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Vinoo</title>
-    <link>https://example.org/authors/</link>
+    <link>https://capable-starship-1b455b.netlify.app/authors/</link>
     <description>Recent content in Authors on Vinoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Dec 2023 22:36:37 +0530</lastBuildDate>
-    <atom:link href="https://example.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 23:23:10 +0530</lastBuildDate>
+    <atom:link href="https://capable-starship-1b455b.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Richard Hendricks</title>
-      <link>https://example.org/authors/richard-hendricks/</link>
-      <pubDate>Sat, 30 Dec 2023 22:36:37 +0530</pubDate>
-      <guid>https://example.org/authors/richard-hendricks/</guid>
+      <title>vinoo</title>
+      <link>https://capable-starship-1b455b.netlify.app/authors/vinoo/</link>
+      <pubDate>Sun, 31 Dec 2023 23:23:10 +0530</pubDate>
+      <guid>https://capable-starship-1b455b.netlify.app/authors/vinoo/</guid>
       <description></description>
     </item>
     <item>
-      <title>vinoo</title>
-      <link>https://example.org/authors/vinoo/</link>
-      <pubDate>Sat, 30 Dec 2023 22:35:53 +0530</pubDate>
-      <guid>https://example.org/authors/vinoo/</guid>
+      <title>Richard Hendricks</title>
+      <link>https://capable-starship-1b455b.netlify.app/authors/richard-hendricks/</link>
+      <pubDate>Sat, 30 Dec 2023 22:36:37 +0530</pubDate>
+      <guid>https://capable-starship-1b455b.netlify.app/authors/richard-hendricks/</guid>
       <description></description>
     </item>
   </channel>
