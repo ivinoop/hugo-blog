@@ -2,7 +2,11 @@
 <div class="single">
   <div class="single-content">
     <h1 class="single-title">{{ .Title }}</h1>
-    <img src={{ .Params.imageBig }} alt="post-cover-image" class="single-cover-img">
+    <img
+      src={{ .Params.imageBig }}
+      alt="post-cover-image"
+      class="single-cover-img"
+    />
     <p class="single-description">{{ .Params.description }}</p>
     <div class="single-details flex jcc aic">
       <img
@@ -30,7 +34,9 @@
       {{ end }}
     </div>
     <hr class="divider" />
-    <div class="single-content">{{ .Content }}</div>
+    <div class="single-content-post">
+      {{ .Content }}
+    </div>
   </div>
 </div>
 {{ end }}

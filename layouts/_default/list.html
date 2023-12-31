@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="list">
   {{ range .Paginator.Pages}}
-  <ul class="list-items">
-    <li class="list-item flex jsb ais">
+  <div class="list-items">
+    <div class="list-item">
       <div class="list-item-content">
         <h2 class="list-item-title">
           <a href="{{.Permalink}}">{{.Title}}</a>
@@ -32,14 +32,14 @@
           {{ end }}
         </div>
       </div>
-      <img
+      {{/*  <img
         class="list-item-img"
         loading="lazy"
         src="{{.Params.image}}"
         alt="{{.Title}}"
-      />
-    </li>
-  </ul>
+      />  */}}
+    </div>
+  </div>
   {{ end }}
 </div>
 {{ end }}
