@@ -5,7 +5,7 @@ draft = false
 description = "laborum recusandae dolorum rem neque. Nisi cum nihil est facere harum quidem nam reiciendis ducimus."
 image = "/images/7.png"
 imageBig = "/images/7.png"
-categories = ["general", "life"]
+categories = ["general"]
 authors = ["Richard Hendricks"]
 avatar = "/images/avatar.webp"
 +++

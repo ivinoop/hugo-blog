@@ -1,0 +1,59 @@
+{{ define "main" }} 
+{{ if eq .RelPermalink "/categories/"}} 
+<div class="categories-list flex jcc aic wrap">
+{{ range $.Site.Taxonomies.categories.ByCount }}
+  <span>
+    <a href="/categories/{{ .Name }}" class="category-name">
+    #{{ .Name }} ({{ .Count }})
+    </a>
+  </span>
+{{ end }} 
+</div>
+{{ else }}
+<div class="list">
+  {{ range .Paginator.Pages}}
+  <div class="list-items">
+    <div class="list-item">
+      <div class="list-item-content">
+        <h2 class="list-item-title">
+          <a href="{{.Permalink}}">{{.Title}}</a>
+        </h2>
+        <div class="list-item-details flex aic">
+          <img
+            class="list-item-details-avatar"
+            src="{{.Params.avatar}}"
+            loading="lazy"
+            alt=""
+          />
+          <span class="list-item-details-author">
+            {{ range (.GetTerms "authors")}}
+            <a href={{ .Permalink }}>{{ .Name }} {{ end }} </a>
+          </span>
+          <i class="bi bi-dot"></i>
+          <time class="list-item-details-date">
+            <i class="bi bi-calendar-event"></i>
+            {{ dateFormat .Site.Params.dateFormat .Date}}
+          </time>
+        </div>
+        <p class="list-item-desc">{{.Params.description}}</p>
+        <div class="list-item-categories">
+          {{ range (.GetTerms "categories") }}
+          <span class="list-item-category"
+            ><a href={{ .Permalink }}>#{{ .Name }}</a></span
+          >
+          {{ end }}
+        </div>
+      </div>
+      {{/*
+      <img
+        class="list-item-img"
+        loading="lazy"
+        src="{{.Params.image}}"
+        alt="{{.Title}}"
+      />
+      */}}
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }} {{ end }}

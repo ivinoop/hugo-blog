@@ -5,7 +5,7 @@ draft = false
 description = "This is a description"
 image = "/images/3.png"
 imageBig = "/images/3.png"
-categories = ["general", "life"]
+categories = ["js"]
 authors = ["vinoo"]
 avatar = "/images/avatar.webp"
 +++
