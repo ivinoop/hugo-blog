@@ -9,19 +9,24 @@
         </h2>
         <div class="list-item-details flex aic">
           <img
-            src="{{.Params.avatar}}"
             class="list-item-details-avatar"
+            src="{{.Params.avatar}}"
             loading="lazy"
             alt=""
           />
-          <span></span>
-          <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+          <span class="list-item-details-author">
+            {{ range (.GetTerms "authors")}}
+            <a href={{.Permalink}}>{{ .Name }}
+            </a>
+            {{ end }}
+          </span>
+          <time class="list-item-details-date"><i class="bi bi-calendar-event"></i> {{ dateFormat .Site.Params.dateFormat .Date}}</time>
         </div>
         <p class="list-item-desc">{{.Params.description}}</p>
         <div class="list-item-categories">
-          <span class="list-item-category"><a href="#">#javascript</a></span>
-          <span class="list-item-category"><a href="#">#react</a></span>
-          <span class="list-item-category"><a href="#">#how-to</a></span>
+          {{ range (.GetTerms "categories") }}
+          <span class="list-item-category"><a href={{ .Permalink }}>#{{ .Name }}</a></span>
+          {{ end }}
         </div>
       </div>
       {{/*

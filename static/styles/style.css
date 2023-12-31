@@ -313,14 +313,20 @@ a {
     .list-item-details {
       gap: 4px;
       color: var(--textSoft);
-
       .list-item-details-avatar {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
       }
+      .list-item-details-author {
+        font-size: 12px;
+      }
       time {
-        font-size: 10px;
+        margin-left: 12px;
+        font-size: 12px;
+        i {
+          margin-right: 4px;
+        }
       }
     }
     .list-item-desc {

@@ -6,17 +6,17 @@ description = "This is a description Lorem ipsum dolor sit amet consectetur adip
 image = "/images/googol-min.jpeg"
 imageBig = "/images/googol-min.jpeg"
 categories = ["general", "life"]
-authors = ["vinoo"]
+authors = ["Richard Hendricks"]
 avatar = "/images/avatar.webp"
 +++
 
-## Introduction 
+## Introduction
 
-This is a test post with **bold text** and *italic text*. 
+This is a test post with **bold text** and _italic text_.
 
 More to come at [vinoo.in](https://vinoo.in)
 
-> Progress, not perfectiom 
+> Progress, not perfectiom
 
 1. Item 1
 2. Item 2
@@ -32,10 +32,10 @@ More to come at [vinoo.in](https://vinoo.in)
 
 ```js
 function example(a, b) {
-  return a + b
+  return a + b;
 }
 ```
 
-Here's a random picture of me at Google - 
+Here's a random picture of me at Google -
 
 ![Vinoo at Google](/images/googol-min.jpeg)
