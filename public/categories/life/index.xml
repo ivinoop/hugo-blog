@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on Vinoo</title>
+    <link>https://example.org/categories/life/</link>
+    <description>Recent content in life on Vinoo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Dec 2023 22:35:53 +0530</lastBuildDate>
+    <atom:link href="https://example.org/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sixth Post</title>
+      <link>https://example.org/sixth-post/</link>
+      <pubDate>Sat, 30 Dec 2023 22:35:53 +0530</pubDate>
+      <guid>https://example.org/sixth-post/</guid>
+      <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
+    </item>
+    <item>
+      <title>Fifth Post</title>
+      <link>https://example.org/fifth-post/</link>
+      <pubDate>Sat, 30 Dec 2023 22:35:16 +0530</pubDate>
+      <guid>https://example.org/fifth-post/</guid>
+      <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
+    </item>
+    <item>
+      <title>Fourth Post</title>
+      <link>https://example.org/fourth-post/</link>
+      <pubDate>Sat, 30 Dec 2023 22:34:43 +0530</pubDate>
+      <guid>https://example.org/fourth-post/</guid>
+      <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>https://example.org/first-post/</link>
+      <pubDate>Sat, 30 Dec 2023 22:24:03 +0530</pubDate>
+      <guid>https://example.org/first-post/</guid>
+      <description>Introduction This is a test post with bold text and italic text.&#xA;More to come at vinoo.in&#xA;Progress, not perfectiom&#xA;Item 1 Item 2 Item 3 unordered 1 unordered 2 unordered 3 code sample&#xA;function example(a, b) { return a + b } Here&amp;rsquo;s a random picture of me at Google -</description>
+    </item>
+  </channel>
+</rss>
